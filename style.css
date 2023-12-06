@@ -1,0 +1,337 @@
+* {
+    font-family: source sans pro;
+    width: -webkit-fill-available;
+}
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px;
+}
+header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nav {
+    width: fit-content;
+    font-size: 0.8rem;
+}
+.nav a {
+    margin: 0px 1rem;
+    
+}
+header a.logo {
+    width: 10rem;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.big_title {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+}
+.big_title h1 {
+    margin: 5rem 0rem 0rem 0rem;
+    font-size: 120px;
+}
+.big_title p {
+    margin: 0rem 0rem 3rem 0rem;
+    word-spacing: 1.6em;
+    width: max-content;
+    font-size: 16px;
+
+}
+.registerbtn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    color: #fff;
+    border: 1px solid #C271FF;
+    border-radius: 22px;
+    background-color: #C271FF;
+    box-shadow: 0 0 2em black;
+}
+.registerbtn:hover {
+    cursor: pointer;
+}
+mark {
+    font-weight: 600;
+    color: #C271FF;
+    background-color: transparent;
+}
+.review {
+    margin-top: 13rem;
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: center;
+
+}
+.review h1 {
+    width: fit-content;
+    font-weight: 100;
+    font-size: 32px;
+
+}
+.review > div {
+    display: flex;
+    flex-direction: row;
+}
+.review > div > div {
+    margin: 0rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: max-content;
+}
+.review > div > div > img  {
+    border-radius: 50%;
+    width: 150px;
+}
+.review > div > div > h2  {
+    font-size: 18px;
+    width: max-content;
+
+}
+.review > div > div > p  {
+    margin: 0%;
+    width: 8rem;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: pre-line;
+    font-size: 16px;
+}
+.quote {
+    background-color: #C271FF;
+}
+.quote > div {
+    margin: 0rem 15rem;
+    color: white;
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+.quote img {
+    height: 160px;
+    width: fit-content;
+}
+.quote > div > div {
+    margin-left: 3rem;
+}
+.quote > div > div > q + p {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+.quote > div > div > q ~ p + p {
+    margin: 0;
+}
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.videos > h1 {
+    margin: 5rem 0rem;
+    width: fit-content;
+    font-weight: 400;
+}
+.videos > div {
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+
+}
+.videos > div > div {
+    margin: 0px 1rem;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+.videos > .miniature {
+    width: 255px;
+    height: auto;
+}
+.videos > div > div > p {
+    font-size: 0.8rem;
+    margin-left: 1rem;
+
+}
+.whoposted > img {
+    width: 2rem;
+    border-radius: 50%;
+    height: auto;
+}
+.videos > div > div h3 {
+    margin: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.whoposted {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.whoposted h2 {
+    margin: 0rem 1rem;
+    font-size: small;
+    color: #C271FF;
+}
+.stars {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 1rem;
+}
+.stars > img {
+    width: 16px;
+    height: 16px;
+    margin: 0.1rem;
+}
+.stars > p {
+    color: #C271FF;
+    margin: 0rem 0rem 0rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.membership {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #071629;
+}
+.membership > h1 {
+    margin-top: 72px;
+    margin-bottom: 58px;
+    font-size: 32px;
+    width: fit-content;
+}
+.membership > div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.membership > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 28px 0px 28px;
+}
+.membership > div > div:first-child {
+    margin: 0px 28px 0px 0px;
+}
+.membership > div > div:last-child {
+    margin: 0px 0px 0px 28px;
+}
+.membership > div > div > h2 {
+    width: fit-content;
+    font-size: 18px;
+}
+.membership > div > div > p {
+    width: fit-content;
+    font-size: 14px;
+}
+
+.membership > div > div > img {
+    width: 35px;
+    height: auto;
+}
+.membership > .registerbtn {
+    margin-top: 85px;
+    margin-bottom: 52px;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FAQ h1 {
+    font-weight: 100;
+    font-size: 60px;
+    width: fit-content;
+}
+.FAQ div {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+
+}
+.FAQ div div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.FAQ div div div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+
+}
+.FAQ div div div h2 {
+    font-size: 16px;
+}
+.FAQ div div div p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: #071629;
+
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 250px;
+
+
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.links div {
+    width: fit-content;
+    flex-direction: row;
+    height: 30px;
+
+}
+footer div div img {
+    height: 30px;
+    width: auto;
+}
+.links div a {
+    height: fit-content;
+    width: fit-content;
+    margin: 0px 10px;
+}
+.links + p {
+    width: fit-content;
+    color:rgba(255, 255, 255, 0.3);
+    margin-top: 0px;
+}
