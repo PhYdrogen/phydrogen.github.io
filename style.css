@@ -11,6 +11,7 @@ body {
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: #071629;
     margin: 0px;
 }
 header {
